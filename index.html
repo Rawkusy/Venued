@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VenueVision - Your Music Venue Guide</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: #faf3e0;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background: #fff6e8;
+            padding: 20px;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+            border-bottom: 2px solid #e1d7c6;
+            color: #5c4a33;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+            background: #f7e9d3;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        nav a {
+            margin: 0 15px;
+            color: #b36117;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 60px 20px;
+            background: #fffbe6;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        .hero h1 {
+            font-size: 42px;
+            margin-bottom: 10px;
+            color: #5c4a33;
+        }
+
+        .hero p {
+            font-size: 20px;
+            margin: 0;
+            color: #7a6850;
+        }
+
+        .info-section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin: 30px 20px;
+        }
+
+        .info-card {
+            background: #fffaf0;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin: 10px;
+            width: 280px;
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .info-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+        }
+
+        .info-card h3 {
+            color: #b36117;
+            font-size: 22px;
+            margin-bottom: 10px;
+        }
+
+        .info-card p {
+            font-size: 16px;
+            line-height: 1.5;
+            color: #5c4a33;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #f7e9d3;
+            color: #5c4a33;
+            font-size: 14px;
+            border-top: 2px solid #e1d7c6;
+        }
+    </style>
+</head>
+<body>
+    <header>VenueVision</header>
+    
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#venues">Venues</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section class="hero" id="home">
+        <h1>Discover Your Favorite Music Venues</h1>
+        <p>Find details on seating, parking, showtimes, and more!</p>
+    </section>
+
+    <section class="info-section" id="venues">
+        <div class="info-card">
+            <h3>Venue Layout</h3>
+            <p>Explore interactive maps showing seating arrangements for the best concert experience.</p>
+        </div>
+        <div class="info-card">
+            <h3>Parking Information</h3>
+            <p>Get details on available parking options, prices, and locations near the venue.</p>
+        </div>
+        <div class="info-card">
+            <h3>Show Schedule</h3>
+            <p>Know when the openers start and when the main act takes the stage.</p>
+        </div>
+    </section>
+
+    <footer>
+        &copy; 2025 VenueVision. All Rights Reserved.
+    </footer>
+</body>
+</html>
